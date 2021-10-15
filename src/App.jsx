@@ -10,13 +10,18 @@ const App = () =>  {
   const [tasks, setTasks] = useState([
     {
       id: "1",
-      title: "teste1",
+      title: "Escreva o nome da tarefa na caixa de texto e clique em Adicionar",
       completed: false,
     },
     {
       id: "2",
-      title: "teste2",
-      completed: true,
+      title: "Clique no nome das tarefas para marca-las como feitas",
+      completed: false,
+    },
+    {
+      id: "3",
+      title: "Clique no X para deletar as tarefas",
+      completed: false,
     }
   ]);
 
